@@ -27,7 +27,7 @@ using System.Collections.Generic;
             
             List<User> users = new List<User>();
             User us1 = new User("Ankita","Sikder",23);
-            User us2 = new User("Soumen","Das",38);
+            User us2 = new User("Biswa","Bhatt",22);
             users.Add(us1);
             users.Add(us2);
             foreach(User u in users)

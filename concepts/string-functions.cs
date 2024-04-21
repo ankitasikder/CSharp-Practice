@@ -4,7 +4,11 @@ class HelloWorld {
   static void Main(String[] args) {
     string fname="Ankita";
     string lname="Sikder";
-    
+     char[] chars = { 'G', 'E', 'E', 'K', 'S' };
+ 
+        // Create a string from a character array.
+        string str1 = new string(chars);
+        Console.WriteLine(str1);
     string full=fname+" "+lname;
     
     //string st=full.Substring(0,6);
